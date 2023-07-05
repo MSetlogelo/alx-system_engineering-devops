@@ -1,11 +1,2 @@
-#!/bin/bash
-
-filename="school.mgc"
-
-Result=$(dd if="$filename" bs=1 count=6 2>/dev/null)
-if [[ $result == "SCHOOL" ]]; then
-    echo "$filename: School data file"
-else
-    echo "$filename: Not a School data file"
-fi
-
+0 string SCHOOL School data
+!:mime School
