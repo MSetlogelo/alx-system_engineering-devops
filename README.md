@@ -1,1 +1,1 @@
-0x00. Shell, basics: Day 2
+README.md file for 0x01. Shell, permissions
