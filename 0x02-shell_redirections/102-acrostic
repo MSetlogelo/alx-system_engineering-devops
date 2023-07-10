@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=$'\n'; printf '%s' $(cut -c1 input.txt); echo
+cut -c 1 | paste -s -d '' - ; echo
