@@ -1,0 +1,2 @@
+#!/bin/bash
+IFS=$'\n'; printf '%s' $(cut -c1 input.txt); echo
