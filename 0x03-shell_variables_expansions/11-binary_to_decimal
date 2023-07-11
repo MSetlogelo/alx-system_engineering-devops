@@ -1,2 +1,2 @@
 #!/bin/bash
-BINARY="$BINARY" python -c 'print(int("'$BINARY'", 2))'
+BINARY="$BINARY" echo "$((2#$BINARY))"
