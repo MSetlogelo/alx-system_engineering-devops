@@ -1,2 +1,2 @@
 #!/bin/bash
-ls PATH -l | grep ^d | wc -l
+ls PATH -l | grep " drwx" | wc -l
